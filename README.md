@@ -13,7 +13,7 @@ Sample json output files are located in same folder as 2016-08-30-1.json etc.
 
 Import json to read file from your code as follows:
 move collected files to be processed to folder tweets/raw 
-
+<code>
 import json
 import os
 
@@ -25,3 +25,4 @@ for input_filename in os.listdir('tweets/raw'):
   if not input_filename.startswith('.'):
     dirpath = os.path.splitext(os.path.basename(input_filename))[0]
     for line in open("tweets/raw/" + '/' + input_filename,'r').readlines():
+</code>
