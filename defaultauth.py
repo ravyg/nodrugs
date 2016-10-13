@@ -1,4 +1,9 @@
-#NOTE change the name of this file to auth.py after you change the keys. To turn the code on!
+#NOTE Copy this file to auth.py then add your keys to auth.py To turn the code on!
+# In terminal rul following:
+# 1) cp defaultauth.py auth.py
+# 2) open auth.py (Add and save twitter key, secret, token, token_secret)
+
+
 class TwitterAuth:
 	# Go to http://dev.twitter.com and create an app. 
 	# The consumer key and secret will be generated for you after
