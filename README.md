@@ -1,6 +1,14 @@
 # nodrugs_demo
 social networking data collection 
 
+To start colaborating 
+1) Fork this repo your profile.
+2) do a `git clone` of your repo
+3) `commit and push code` to your repo (fork of this repo).
+4) create a `pull request` using github interface.
+
+NOTE: Detailed instruction of each step above is provided by github documentation. Be creative.
+
 Use instructions at defaultauth.py for intialization.
 
 To set the collection keywords visit data/FILTER
