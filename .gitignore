@@ -20,6 +20,7 @@ lib64/
 parts/
 sdist/
 var/
+auth.py
 *.egg-info/
 .installed.cfg
 *.egg
@@ -87,3 +88,11 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+
+# Ignoring XOS DS_store
+*.DS_Store
+.DS_Store
+
+# Ignoring config files
+auth.py
