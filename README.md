@@ -1,13 +1,27 @@
-# 52000_socialnw
+# nodrugs_demo
 social networking data collection 
 
-This code is to demostrate googles tensorflow models like:
-1) Word2Vec.
-2) CNN
-3) RNN
+Use instructions at defaultauth.py for intialization.
 
-Initially data used for this setup is gathered using twitter tweets using Twitter API. 
+To set the collection keywords visit data/FILTER
+- add one keyword per line as shown.
+- Backup FILTER file for future reference.
 
-This demo is also used to demo tensorflow services such as:
-1) Tensorboard
-2) 
+Set data folder path at main_stream.py if needed.
+This folder "/data" is used to read FILTER and write tweets collected output per day in batchs.
+Sample json output files are located in same folder as 2016-08-30-1.json etc.
+
+Import json to read file from your code as follows:
+move collected files to be processed to folder tweets/raw 
+
+import json
+import os
+
+# Call each file and extract data.
+tweet_text = ""
+data = ""
+
+for input_filename in os.listdir('tweets/raw'):
+  if not input_filename.startswith('.'):
+    dirpath = os.path.splitext(os.path.basename(input_filename))[0]
+    for line in open("tweets/raw/" + '/' + input_filename,'r').readlines():
