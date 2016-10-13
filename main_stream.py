@@ -9,7 +9,10 @@ from auth import TwitterAuth
 # Output directory to hold json files (one per day) with tweets
 # Within the output directory, the script loads a file named FILTER with the terms to be tracked (one per line)
 
-outputDir = "/Users/raviish/purdueSem/SEM-4/ITS52000/repositories/nodrugs/data"
+# Full path
+#outputDir = "/Users/raviish/purdueSem/SEM-4/ITS52000/repositories/nodrugs/data"
+# Relative Path.
+outputDir = "data"
 
 ## End of Settings###
 
