@@ -19,7 +19,7 @@ move collected files to be processed to folder tweets/raw
 import json
 import os
 
-###### Call each file and extract data.
+# Call each file and extract data.
 tweet_text = ""
 data = ""
 
